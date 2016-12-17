@@ -1,0 +1,52 @@
+body{
+ background-color: 	#FAEBD7;
+ font-size: 28px;
+}
+ 
+.aside{
+ font-size: 22px;
+ border: 1px solid grey; /* Толщина рамки в пикселах,
+                           тип границы (в данном случае сплошная линия) и
+                           цвет линии */
+ padding: 1px; /* Расстояние от текста до рамки */
+ width: 45%;
+ display: inline-block;
+}
+.article{
+width: 47%;
+font-size: 22px;
+ border: 1px solid grey; /* Толщина рамки в пикселах,
+                           тип границы (в данном случае сплошная линия) и
+                           цвет линии */
+ padding: 1px; 
+	display: inline-block;
+}
+.footer{
+	width: 100%;
+	font-size: 22px;
+	display: inline-block;
+	
+}
+@media (min-width: 100px) and (max-width: 1500px) {
+ .text {
+	 background-color: pink;
+	  color: purple;
+ }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+ .article {
+	width: 65%;
+ }
+	.aside{
+		width: 30%;
+ }
+ }
+
+@media (max-width: 767px) {
+ .article {
+	width: 100%;
+ }
+	.aside{
+		width: 100%;
+ }
+}

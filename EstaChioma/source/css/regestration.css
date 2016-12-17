@@ -1,0 +1,22 @@
+body { 
+	background-image: url('../images/5.jpg');
+    background-size: cover; /* Современные браузеры */
+	font-family: Garamond ;
+   }
+.article{
+	  background: rgba(245, 179, 172, 0.68);
+	  display:block;
+	  margin-left: 10px;
+	  width:728px;
+	  vertical-align:top;
+	  color:black;
+	  box-sizing: border-box;
+	  border: solid 1px black;
+	  border-radius: 10px;
+	  padding: 10px;
+	  margin: 0 auto;
+      width: 1100px; 
+	  vertical-align: top;
+	  box-sizing: border-box;
+ }
+   

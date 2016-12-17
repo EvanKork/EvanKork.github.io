@@ -1,0 +1,53 @@
+@charset "utf-8";
+   
+    body {
+    background: url(../images/fon.jpg);
+	 background-size: 100% 1000%;
+    background-repeat: no-repeat;
+	
+	}
+	
+   #container {
+    width: 1300px; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивание по центру */
+    background: #f0f0f0; /* Цвет фона левой колонки */
+	
+	
+   }
+      
+   .menu-list{
+	   list-style-type: none;
+	   margin: 0; /* Обнуляем значение отступов */
+       padding: 10px; /* Значение полей */
+	  
+	   
+   }
+   .menu-list li {
+	   display: inline; /* Отображать как строчный элемент */
+      margin-right: 10px; /* Отступ слева */
+      padding: 86px; /* Поля вокруг текста */
+   }
+   .menu-list li a{
+	   color:black;
+	
+   }
+    .menu-list li.active a{
+	   text-decoration: none; 
+	}
+   #header {
+    font-size: 2.2em; /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 7px; /* Отступы вокруг текста */
+    background: #8fa09b; /* Цвет фона шапки */
+    color: #ffe; /* Цвет текста */
+   }
+ #footer {
+    background: #8fa09b; /* Цвет фона подвала */
+    color: #fff; /* Цвет текста */
+    padding: 5px; /* Отступы вокруг текста */
+    clear: left; /* Отменяем действие float */
+   
+	
+}
+
+  

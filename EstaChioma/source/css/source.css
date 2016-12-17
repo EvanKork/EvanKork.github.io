@@ -1,0 +1,9 @@
+body { 
+	background-image: url('../images/pop5.jpg');
+    background-size: cover; /* Современные браузеры */
+	font-family: "COMIC SANS MS" ;
+   }
+   .text{
+	 font-size: 27px;
+	 text-align: center;
+   }

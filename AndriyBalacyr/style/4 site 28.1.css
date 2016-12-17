@@ -1,0 +1,180 @@
+body{
+	margin: 0;
+    font-family: "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #999;
+    cursor: default;
+}
+.head {
+	border: 0px solid #000;
+    position: relative;
+    height: 130px;
+    padding: 0;
+    display: block;
+    font-size: 0.94em;
+    line-height: 135%;
+    background-color: #00b4f0;
+    color: #fff;
+}
+.headin {
+	border: 0px solid #ccc;
+    position: relative;
+    height: 130px;
+    padding: 0;
+    display: block;
+}
+.log {
+    padding: 25px 75px 25px 75px;
+    position: absolute;
+}
+.log a {
+    text-decoration: none;
+    color: white;
+}
+.topMenuRight {
+	list-style: none;
+	position: absolute;
+    padding-top: 35px;
+    right: 75px;
+    border: 0px solid #1FA2E1;
+    display: block;
+}
+.topMenuRight a {
+    text-decoration: none;
+    color: white;
+}
+.topMenuRight li {
+	float: left;
+	padding: 10px;
+}
+.topMenuRight li a {
+    font-family: "Segoe UI Semibold";
+    font-size: 17px;
+    transition: all .4s ease-in-out;
+}
+.topMenuRight li a:hover {
+    color: #005774;
+}
+.menulink {
+    list-style: none;
+    color: white;
+    display: block;
+    position: absolute;
+    margin: 0 0 0 75px;
+    background-color: #019cd0;
+    transition: all 0.2s 0.01s ease;
+}
+.menulink ul {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    weight: 62px;
+    padding-left: 0;
+}
+.menulink ul li {
+	padding: 17px 21px 30px 21px;
+	transition: all 0.3s 0.01s ease;
+}
+.menulink ul li:hover {
+	padding: 22px 21px 30px 21px;
+	background-color: #00b4f0;
+    transition: all 0.3s 0.01s ease;
+}
+.menu {
+    font-size: 18px;
+	background-color: #00a8e0;
+	height: 55px;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    cursor: default;
+}
+.menu ul{
+    list-style-type: none;
+    color: white;
+ 	padding: 0 0 0 149px;
+    margin: 0;
+}
+.menu ul li {
+	display:inline-block;
+	padding: 15px 16px 16px 16px;
+    margin-left: -5px;
+    transition: all 0.3s 0.01s ease;
+}
+.menu ul li:hover  {
+    background-color: #444;
+    border-bottom: 7px solid #444;
+    transition: all 0.3s 0.01s ease;
+}
+.sub-menu {
+	display: none;
+}
+.menu-icons {
+	float: right;
+    padding: 17px 75px 0 0;
+}
+.menu-icons a img {
+	height: 17px;
+	width: 23x;
+    padding-left: 4px; 
+}
+.menuul {
+	background-color: #019cd0;
+	height: 7px;
+    text-align: center;
+}
+.bottomline {
+    border-bottom: 0px solid #eee;
+    background-color: #fff;
+    font-family: "Segoe UI Light";
+    position: relative;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+    margin: 0;
+    display: block;
+    padding: 2.1% 0 0 75px;
+    color: #b2b2b2;
+    font-weight: 100;
+    font-size: 2.5em;
+    height: 95px;
+}
+.footer {
+    margin-top: 15%;
+    position: relative;
+    background-color: #00b4f0;
+    height: 120px;
+    text-align: center;
+    bottom: 10px;
+}
+.logf {
+    padding: 25px 160px 25px 160px;
+    position: absolute;
+}.logf a {
+    text-decoration: none;
+    color: white;
+}
+.bottomMenuRight {
+    list-style: none;
+    position: absolute;
+    right: 2%;
+    border: 0px solid #1FA2E1;
+    display: block;
+}
+.bottomMenuRight a {
+    text-decoration: none;
+    color: white;
+}
+.bottomMenuRight li {
+    float: left;
+    padding: 10px;
+}
+.bottomMenuRight li a {
+    transition: all .4s ease-in-out;
+}
+.bottomMenuRight li a:hover {
+    color: #005774;
+}
+.cbalink {
+    display: none;
+}

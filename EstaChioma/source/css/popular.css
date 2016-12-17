@@ -1,0 +1,68 @@
+body { 
+    background: url('../images/pop4.jpg');
+    background-size: cover; /* Современные браузеры */
+	font-family: "COMIC SANS MS" ;
+   }
+   
+   div {
+    border-radius: 1px pink;
+    padding: 10px;
+   }
+   .radius {
+    background: #f0f0f0; /* Цвет фона */
+    border: 1px solid black; /* Параметры рамки */
+    padding: 15px; /* Поля вокруг текста */
+    margin-bottom: 10px; /* Отступ снизу */
+   }
+    .text{
+	 font-size: 27px;
+	 text-align: center;
+   }
+ 
+ .article{
+	  background: rgba(147, 134, 220, 0.49);
+	  display:block;
+	  margin-left: 10px;
+	  width:728px;
+	  vertical-align:top;
+	  color:black;
+	  box-sizing: border-box;
+	  border: solid 1px black;
+	  border-radius: 10px;
+	  padding: 10px;
+	  margin: 0 auto;
+      width: 1100px; 
+	  vertical-align: top;
+	  box-sizing: border-box;
+ }
+ .books{ 
+width: 49%; 
+color: white; 
+display: inline-block;
+float: left;
+} 
+.books-text{
+	float: right;
+    width: 47%;
+    display: inline-block; 
+	box-sizing: border-box;
+	size: 3px;
+ 
+}
+.books-logo{
+ float: left;
+ width: 49%;
+ box-sizing: border-box;
+ 
+}
+.books img { 
+width: 100%; 
+} 
+.books span{ 
+display: block; 
+
+}
+.clearboth{
+	clear: both;
+}
+ 

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <TITLE>Registration</TITLE>
+<link rel="stylesheet" type="text/css" href="../source/css/menu.css">
+<link rel="stylesheet" type="text/css" href="../source/css/regestration.css">
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #FFC0CB;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #FA8072;
+    color: black;
+}
+</style>
+</head>
+
+
+<body>
+		
+			<h1 class="text" align="center">Books for you</h1>
+				<div class="menu">
+					<ul>
+						<li><a href="../index.html">Main</a></li>
+						<li><a href="popular.html">Popular</a></li>
+						<li><a href="sources.html">Sources</a></li>
+						<li><a href="registration.html" class="selected">Registration</a></li>
+					</ul>
+				</div>
+					<div class="article main-class">
+						
+							<div align="center" class="form">
+								<form id="registrationForm" action="main.html" method="post"> 
+									<h1>Registration</h1>
+								Name: <input type= "text" name="name" id="name" value="" /> <br><br>
+								Email: <input type="text" name="email" id="email" type="email" value="" /> <br><br>
+
+								<button id="saveButton" type="submit">
+									<!-- <a href="main.html">Save</a> -->
+									Save 
+								</button/><br>
+								</form>
+	    
+							</div>
+							
+								<script type="text/javascript" src="../source/js/registration.js"></script>
+								<script type="text/javascript" src="../source/js/user-information.js"></script>
+							<div class="header">
+								<p class="text" align="center" >
+									<font size="6" color="black" >Registration allow you to read all books for free!</font></p>
+					</div>
+						
+</body>
+</html>

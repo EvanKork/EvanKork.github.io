@@ -1,0 +1,95 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 40px 0 20px 75px;
+}
+.imageBlock {
+    overflow: hidden;
+    width: 800px;
+    height: 455px;
+}
+.postBox {
+    background-color: white;
+    width: 800px;
+    padding: 1% 18px 2.43% 18px;
+    position: relative;
+    border: 0px solid #f3f3f3;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.05);
+    flex: 0 1 auto;
+    margin-right: 36px;
+}
+.postBox img {
+    border-radius: 6px;
+    transition: all 1s ease-out;
+}
+.postBox img:hover {
+    transform: scale(1.12);
+}
+.postBox h2 {
+    font-family: "Segoe UI Semilight", Tahoma, Helvetica, Sans-Serif;
+    color: #222;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 35px;
+    transition: all .4s ease-in-out;
+    margin: 0;
+}
+.postBox h2:hover {
+    color: #00b4f0;
+    transition: all 0.2s 0.01s ease;
+}
+.postBoxT {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.postBoxT:hover {
+    color:  #ed3e7c;
+    text-decoration: none;
+}
+.postPr {
+    color: black;
+    margin-bottom: 60px;
+}
+.linkMore a {
+    overflow: hidden;
+    border-radius: 3px;
+    background: #e7e7e7 url(../images/linkMore.png) 8px 9px no-repeat;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-weight: 500;
+    color: #888;
+    font-size: 15px;
+    padding: 6px 11px 9px 31px;
+    transition: all 0.3s 0.01s ease;
+}
+.linkMore a:hover {
+    background: #00b4f0 url(../images/linkMore.png) 13px 9px no-repeat;
+    color: #fff;
+}
+.moreBox {
+    height: 65px;
+    width: 320px;
+    background-color: white;
+    flex: 0 1 auto;
+}
+.textInfo h2 {
+    background: url(../images/lineh2.png) 0px 0px no-repeat;
+    font-size: 22px;
+    font-weight: 100;
+    font-family: "Segoe UI Semilight", Tahoma, Helvetica, Sans-Serif;
+    color: #00b4f0;
+    display: block;
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+}
+.textMore {
+    position: absolute;
+}
+.textMore li{
+    list-style: none;
+    width: 280px;
+    color: black;
+}

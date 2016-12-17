@@ -1,0 +1,25 @@
+  .menu{
+	margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #e5e5e5;
+	font-size: 24px;
+   }
+   .menu .selected{
+	 background-color: white ;  
+   }
+   .menu ul{
+	   display: block;
+	   width: 100%;
+   }
+
+   .menu ul li{
+	text-align: center;
+    display: inline-block;
+    margin-right: -4px;
+	width: 22%;
+   }
+   
+   .menu .menu-list .menu-item{
+	  
+   }
