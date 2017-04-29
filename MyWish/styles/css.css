@@ -1,3 +1,6 @@
+body {
+		background-color: green;		
+}
 .profile {
 
 }
@@ -5,5 +8,6 @@
 
 }
 .wishes-of-friends {
-
+color: white;
+font-weight: bold;
 }
