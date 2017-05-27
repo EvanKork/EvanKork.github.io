@@ -1,0 +1,27 @@
+.row{
+	width: 100%;
+}
+.right-header{
+	background-color: #9197c7;
+}
+.left-header{
+	background-color: #9de6d3;
+}
+.button-search{
+	padding-right: 0;
+	padding-left: 0;
+	border-radius: 0;
+	border: 0;
+}
+.about-me a{
+	color: #9197c7;
+	text-decoration:none;
+}
+.profile a{
+	color: #9de6d3;
+	text-decoration: none;
+}
+.fiend-button{
+	border-radius: 0;
+	background-color: #faf9f7
+}
