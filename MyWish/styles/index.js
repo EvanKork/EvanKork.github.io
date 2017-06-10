@@ -1,10 +1,5 @@
-// console.log($('#myModal'));
-// 		$('#myModal').on('shown.bs.modal', function () {
-// 		  $('#myInput').focus()
-// 		})
- window.onload = function() {
-  };
-  setTimeout(function() {
-	console.log($);
-
-}, 2000);
+$('#exampleModal').on(function () {
+	console.log($('#myModal'));
+	$('#myModal').modal();
+});
+$('#myModal').modal();
